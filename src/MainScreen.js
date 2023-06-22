@@ -14,9 +14,9 @@ const MainScreen = () => {
 
     return (
 
-        <div className='sm:mb-0 mb-0 flex flex-col'>
+        <div className='sm:mb-0 mb-0 flex flex-col min-h-screen'>
             <Navbar />
-            <Stats />
+            <Stats deposit_view={deposit_view}/>
 
             <div className='flex gap-2 mt-5'>
                 <Timer deposit_view={deposit_view}/>

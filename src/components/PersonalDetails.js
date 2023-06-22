@@ -9,7 +9,7 @@ const PersonalDetails = ({ stats_view }) => {
     const [autocompound, setAutocompound] = useState(false);
 
     return (
-        <div className={`${!stats_view ? "hidden" : "block"} w-full h-fit relative p-5 sm:block mx-4 sm:mx-0`}>
+        <div className={`${!stats_view ? "hidden" : "block"} w-full h-fit relative p-5 sm:block mx-4 sm:mx-0 sm:mb-0 mb-2`}>
             <img src={card} className='absolute h-full w-full top-0 left-0' alt="" />
 
             <div className=' font-Orbitron flex flex-col gap-6 relative w-full'>

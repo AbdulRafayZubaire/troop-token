@@ -15,7 +15,7 @@ const Timer = ({ deposit_view }) => {
 
 
     return (
-        <div className={`${deposit_view ? "block" : "hidden"} sm:block w-full h-fit relative p-5 mx-4 sm:mx-0`}>
+        <div className={`${deposit_view ? "block" : "hidden"} sm:block w-full h-fit relative p-5 mx-4 sm:mx-0 sm:mb-0 mb-2`}>
             <img src={card} className='absolute h-full w-full top-0 left-0' alt="" />
 
             <div className='flex flex-col gap-4 relative'>

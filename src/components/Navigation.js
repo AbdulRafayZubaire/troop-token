@@ -5,7 +5,7 @@ import stats from '../images/stats_icon.png'
 
 const Navigation = ({ deposit_view, weapon_view, stats_view, setWeapon_view, setStats_view, setDeposit_view }) => {
   return (
-    <div className='flex sm:hidden justify-around bg-black p-2 pt -3 mt-2 sticky bottom-0 w-full z-50 px-4'>
+    <div className='flex sm:hidden justify-around bg-black pt-3 mt-auto sticky bottom-0 w-full z-50 px-4'>
       <div className='flex flex-col justify-center items-center' onClick={() => {
         setDeposit_view(true)
         setStats_view(false)
