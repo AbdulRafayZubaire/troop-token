@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import card from '../images/card_bg_yellow.png'
 import Progress from './timer_components/Progress'
 import DigitalTimer from './DigitalTimer'
-import btn_yellow from '../images/btn_yellow.png'
-import btn_white from '../images/btn_white.png'
+import btn_yellow from '../images/btn_yellow.svg'
+import btn_white from '../images/btn_white.svg'
 import Box from './timer_components/Box'
 
 const Timer = ({ deposit_view }) => {

@@ -12,7 +12,7 @@ const PersonalDetails = ({ stats_view }) => {
         <div className={`${!stats_view ? "hidden" : "block"} w-full h-fit relative p-5 sm:block mx-4 sm:mx-0 sm:mb-0 mb-2`}>
             <img src={card} className='absolute h-full w-full top-0 left-0' alt="" />
 
-            <div className=' font-Orbitron flex flex-col gap-6 relative w-full'>
+            <div className='font-Orbitron flex flex-col gap-5 relative w-full'>
 
                 {/* drop down head*/}
                 <div className=' font-Orbitron flex justify-between'>
@@ -50,7 +50,7 @@ const PersonalDetails = ({ stats_view }) => {
                 </div>
 
                 {/* Data */}
-                <div className='flex flex-col gap-4 mt-2'>
+                <div className='flex flex-col gap-5 mt-2'>
                     <DataEntity title={"Available"} value={"10,000 $TROOP"} />
                     <DataEntity title={"Deposits"} value={"200,000 $TROOP"} />
                     <DataEntity title={"Claimed"} value={"80,000 $TROOP"} />

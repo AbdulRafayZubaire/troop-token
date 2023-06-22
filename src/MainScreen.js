@@ -14,7 +14,7 @@ const MainScreen = () => {
 
     return (
 
-        <div className='sm:mb-0 mb-0 flex flex-col min-h-screen'>
+        <div className='sm:mb-0 mb-0 flex flex-col min-h-screen sm:pb-4'>
             <Navbar />
             <Stats deposit_view={deposit_view}/>
 
