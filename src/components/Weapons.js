@@ -22,7 +22,7 @@ const Weapons = ({ weapon_view }) => {
   
     return(
       <div className={`${!weapon_view && "hidden"} w-full sm:flex flex-col sm:gap-3 px-4 sm:mb-0 mb-2`}>
-        <p className=' font-Orbitron mx-auto text-xl'>Weapons</p>
+        <p className=' font-Orbitron mx-auto text-xl mt-1 mb-1'>Weapons</p>
         <Accordion title="Gun" content="      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit error enim sunt sed tempore necessitatibus voluptates qui vel atque in." toggleAccordion={() => toggleAccordion('accordion1')} icon={gun_icon} price={10000} isOpen={accordionState.accordion1} />
         <Accordion title="Tank" content="      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit error enim sunt sed tempore necessitatibus voluptates qui vel atque in." toggleAccordion={() => toggleAccordion('accordion2')} icon={tank_icon} price={10000} isOpen={accordionState.accordion2} />
         <Accordion title="Armour" content="      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit error enim sunt sed tempore necessitatibus voluptates qui vel atque in." toggleAccordion={() => toggleAccordion('accordion3')} icon={armour_icon} price={10000} isOpen={accordionState.accordion3} />

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Time_Box from './timer_components/Time_Box'
+import i from '../images/i.svg'
 
 var days, seconds, hours, minutes;
 var today = new Date()
@@ -34,8 +35,8 @@ const DigitalTimer = () => {
 
             <p className=' font-Raleway flex justify-between items-center text-sm'>
                 <p>Next troop withdrawal: </p>
-                <p className='group bg-[#FFFFFF20] w-6 h-6 rounded-xl text-center pt-1 relative inline-block'>i
-                    <span className='hidden bg-[#3C6856] ml-8 text-white w-fit text-center rounded p-2 absolute group-hover:block'>description goes here </span>
+                <p className='group w-6 h-6 rounded-xl text-center pt-1 relative inline-block'><img src={i} alt="" />
+                    <span className='hidden bg-yellow ml-8 text-[#3C6856] font-bold w-fit text-center rounded p-2 absolute group-hover:block'>description goes here </span>
                 </p>
             </p>
 

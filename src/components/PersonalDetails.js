@@ -34,7 +34,7 @@ const PersonalDetails = ({ stats_view }) => {
 
                     <label class="relative flex items-center cursor-pointer mt-auto">
                         <input type="checkbox" onChange={() => setAutoclaim(!autoclaim)} value={autoclaim} class="sr-only peer" />
-                        <div className={`w-11 h-6 ${autoclaim ? 'bg-[#3C6856]' : 'bg-[#3C6856]'} peer-focus:outline-none rounded-full ${autoclaim ? 'after:translate-x-full' : ''} peer-checked:after:border-white after:content-[''] after:absolute after:bg-white after:rounded-full after:h-5 after:top-[2px] after:left-[2px] after:w-5 after:transition-all dark:border-gray-600`}></div>
+                        <div className={`w-11 h-6 ${autoclaim ? 'bg-[#3C6856]' : 'bg-grey'} peer-focus:outline-none rounded-full ${autoclaim ? 'after:translate-x-full' : ''} peer-checked:after:border-white after:content-[''] after:absolute after:bg-white after:rounded-full after:h-5 after:top-[2px] after:left-[2px] after:w-5 after:transition-all dark:border-gray-600`}></div>
                     </label>
 
                 </div>
@@ -44,7 +44,7 @@ const PersonalDetails = ({ stats_view }) => {
 
                     <label class="relative flex items-center cursor-pointer mt-auto">
                         <input type="checkbox" onChange={() => setAutocompound(!autocompound)} value={autocompound} class="sr-only peer" />
-                        <div className={`w-11 h-6 ${autocompound ? 'bg-[#3C6856]' : 'bg-[#3C6856]'} peer-focus:outline-none rounded-full ${autocompound ? 'after:translate-x-full' : ''} peer-checked:after:border-white after:content-[''] after:absolute after:bg-white after:rounded-full after:h-5 after:top-[2px] after:left-[2px] after:w-5 after:transition-all dark:border-gray-600`}></div>
+                        <div className={`w-11 h-6 ${autocompound ? 'bg-[#3C6856]' : 'bg-grey'} peer-focus:outline-none rounded-full ${autocompound ? 'after:translate-x-full' : ''} peer-checked:after:border-white after:content-[''] after:absolute after:bg-white after:rounded-full after:h-5 after:top-[2px] after:left-[2px] after:w-5 after:transition-all dark:border-gray-600`}></div>
                     </label>
 
                 </div>

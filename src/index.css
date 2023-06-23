@@ -6,13 +6,8 @@
 
 .App{
   background-image: url('./images/bg.png');
-}
-
-#accordian{
-  /* background-image: url('./images/card_bg_sm.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%; */
+  background-size: cover;
 }
 
 @keyframes progress {

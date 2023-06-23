@@ -18,7 +18,8 @@ module.exports = {
       colors:{
         'icon': "#FFFFFF20",
         'yellow': "#FFB548",
-        'light': "#D1E1DC"
+        'light': "#D1E1DC",
+        'grey': "#808080"
       }
     },
   },
